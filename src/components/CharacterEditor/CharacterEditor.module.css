@@ -6,7 +6,6 @@
 .maxWidthWrapper {
   max-width: 1024px;
   position: relative;
-  overflow-x: hidden;
 }
 
 .header {
@@ -30,7 +29,7 @@
 .characterWrapper {
   position: absolute;
   top: 0;
-  right: -100px;
+  right: 0;
 }
 
 .controlColumn {
