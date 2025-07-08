@@ -1,11 +1,14 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  position: relative;
+  z-index: 1;
 }
 
 .maxWidthWrapper {
   max-width: 1024px;
   position: relative;
+  z-index: 2;
 }
 
 .header {
@@ -34,4 +37,13 @@
 
 .controlColumn {
   max-width: 50%;
+}
+
+.grayBG {
+  background-color: rgb(213, 221, 221);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 365px;
 }

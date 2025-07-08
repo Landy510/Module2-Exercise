@@ -87,7 +87,7 @@ function App() {
           />
         </div>
       </MaxWidthWrapper>
-
+      <div className={styles.grayBG}></div>
       {/* <div className={styles.characterWrapper}>
         <Character
           body={body}
