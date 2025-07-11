@@ -39,6 +39,17 @@
   max-width: 50%;
 }
 
+@media(max-width: 768px) {
+  .controlColumn {
+    max-width: 100%;
+    display: flex;
+    column-gap: 10px;
+    overflow-x: scroll;
+    position: relative;
+    z-index: 1;
+  }
+}
+
 .grayBG {
   background-color: hsl(195deg, 20%, 86%);
   position: fixed;
