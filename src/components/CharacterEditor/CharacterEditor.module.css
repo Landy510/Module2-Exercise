@@ -2,13 +2,11 @@
   padding-top: 128px;
   padding-bottom: 64px;
   position: relative;
-  z-index: 1;
 }
 
 .maxWidthWrapper {
   max-width: 1024px;
   position: relative;
-  z-index: 2;
 }
 
 .header {
@@ -52,7 +50,7 @@
   }
 }
 
-.grayBG {
+.perspectiveEffect {
   background-color: hsl(195deg, 20%, 86%);
   position: fixed;
   left: 0;
